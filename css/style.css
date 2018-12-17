@@ -45,7 +45,7 @@ table td {
   }
 
   table td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333333;
     display: block;
     font-size: .8em;
     text-align: right;
@@ -68,7 +68,7 @@ table td {
 }
 
 tr:hover td {
-  background:#333;
+  background:#111111;
   color:#FFFFFF;
   border-top: 1px solid #7B241C;
   border-bottom: 1px solid#7B241C;
@@ -84,11 +84,11 @@ tr:last-child {
 }
 
 tr:nth-child(odd) td {
-  background:#808e9b ;
+  background:#444444 ;
 }
 
 tr:nth-child(odd):hover td {
-  background:#333;
+  background:#222222;
 }
 
 tr:last-child td:first-child {
